@@ -105,8 +105,22 @@ button {
   color: #fff;
 }
 
-.nav-icon {
-  font-size: 1.1rem;
+.nav-icon,
+.search-icon {
+  width: 20px;
+  height: 20px;
+  display: grid;
+  place-items: center;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
 }
 
 .sidebar-card {

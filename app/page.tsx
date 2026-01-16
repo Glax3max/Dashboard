@@ -123,27 +123,53 @@ export default function Home() {
         </div>
         <nav className="nav">
           <a className="nav-item active" href="#">
-            <span className="nav-icon">🏠</span>
+            <span className="nav-icon">
+              <svg className="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 11.5L12 5l8 6.5V20a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1v-8.5z" />
+              </svg>
+            </span>
             Overview
           </a>
           <a className="nav-item" href="#">
-            <span className="nav-icon">📈</span>
+            <span className="nav-icon">
+              <svg className="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 19V5M9 17l4-4 3 3 3-6" />
+              </svg>
+            </span>
             Insights
           </a>
           <a className="nav-item" href="#">
-            <span className="nav-icon">🗂️</span>
+            <span className="nav-icon">
+              <svg className="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 7a2 2 0 0 1 2-2h4l2 2h6a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z" />
+              </svg>
+            </span>
             Projects
           </a>
           <a className="nav-item" href="#">
-            <span className="nav-icon">📅</span>
+            <span className="nav-icon">
+              <svg className="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6 4h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" />
+                <path d="M8 2v4M16 2v4M4 10h16" />
+              </svg>
+            </span>
             Calendar
           </a>
           <a className="nav-item" href="#">
-            <span className="nav-icon">💬</span>
+            <span className="nav-icon">
+              <svg className="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H8l-4 4v-4H6a2 2 0 0 1-2-2z" />
+              </svg>
+            </span>
             Messages
           </a>
           <a className="nav-item" href="#">
-            <span className="nav-icon">⚙️</span>
+            <span className="nav-icon">
+              <svg className="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 9.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5z" />
+                <path d="M19.4 15a7.8 7.8 0 0 0 .1-1l2-1.2-2-3.5-2.2.7a7.4 7.4 0 0 0-1.7-1l-.4-2.3H8.8l-.4 2.3a7.4 7.4 0 0 0-1.7 1l-2.2-.7-2 3.5L4.6 14a7.8 7.8 0 0 0 .1 1l-2.1 1.3 2 3.4 2.3-.6a7.6 7.6 0 0 0 1.6 1l.5 2.2h4l.5-2.2a7.6 7.6 0 0 0 1.6-1l2.3.6 2-3.4z" />
+              </svg>
+            </span>
             Settings
           </a>
         </nav>
@@ -174,14 +200,25 @@ export default function Home() {
           </div>
           <div className="topbar-actions">
             <div className="search">
-              <span className="search-icon">🔍</span>
+              <span className="search-icon">
+                <svg className="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M11 4a7 7 0 1 1 0 14 7 7 0 0 1 0-14z" />
+                  <path d="M20 20l-4-4" />
+                </svg>
+              </span>
               <input type="text" placeholder="Search reports, teams..." />
             </div>
             <button className="icon-button" aria-label="Notifications">
-              🔔
+              <svg className="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6 9a6 6 0 1 1 12 0c0 5 2 5.5 2 7H4c0-1.5 2-2 2-7z" />
+                <path d="M9.5 19a2.5 2.5 0 0 0 5 0" />
+              </svg>
             </button>
             <button className="icon-button" aria-label="Settings">
-              ⚙️
+              <svg className="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 9.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5z" />
+                <path d="M19.4 15a7.8 7.8 0 0 0 .1-1l2-1.2-2-3.5-2.2.7a7.4 7.4 0 0 0-1.7-1l-.4-2.3H8.8l-.4 2.3a7.4 7.4 0 0 0-1.7 1l-2.2-.7-2 3.5L4.6 14a7.8 7.8 0 0 0 .1 1l-2.1 1.3 2 3.4 2.3-.6a7.6 7.6 0 0 0 1.6 1l.5 2.2h4l.5-2.2a7.6 7.6 0 0 0 1.6-1l2.3.6 2-3.4z" />
+              </svg>
             </button>
             <button className="primary-button">Generate Report</button>
           </div>
