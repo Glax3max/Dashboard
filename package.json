@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Glax3max/Dashboard#readme",
   "dependencies": {
+    "firebase": "^12.8.0",
     "next": "^16.1.2",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
