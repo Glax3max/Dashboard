@@ -21,13 +21,14 @@
   },
   "homepage": "https://github.com/Glax3max/Dashboard#readme",
   "dependencies": {
+    "firebase": "^12.8.0",
     "next": "^16.1.2",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
   },
   "devDependencies": {
-    "@types/node": "^25.0.9",
-    "@types/react": "^19.2.8",
-    "typescript": "^5.9.3"
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18"
   }
 }
