@@ -12,21 +12,17 @@ const manrope = Manrope({
 });
 
 export const metadata = {
-  title: "Qyuro Dashboard",
-  description: "Qyuro analytics dashboard UI."
+  title: "Qyuro AI Workspace",
+  description: "AI chat workspace with collections and visual input."
 };
 
-export default function RootLayout({
-  children
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
       className={`${inter.variable} ${manrope.variable} h-full`}
     >
-      <body className="min-h-full bg-slate-100 font-sans text-slate-900 antialiased">
+      <body className="min-h-full bg-slate-950 font-sans text-slate-100 antialiased">
         {children}
       </body>
     </html>
