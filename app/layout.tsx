@@ -22,8 +22,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${manrope.variable}`}>
-      <body>{children}</body>
+    <html
+      lang="en"
+      className={`${inter.variable} ${manrope.variable} h-full`}
+    >
+      <body className="min-h-full bg-slate-100 font-sans text-slate-900 antialiased">
+        {children}
+      </body>
     </html>
   );
 }
