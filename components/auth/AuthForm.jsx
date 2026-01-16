@@ -57,7 +57,7 @@ export default function AuthForm({ mode }) {
         Password
         <input
           type="password"
-          placeholder="••••••••"
+          placeholder="********"
           className="rounded-xl border border-slate-800 bg-slate-950/80 px-4 py-3 text-sm text-slate-100 placeholder:text-slate-500 focus:border-violet-500/60 focus:outline-none focus:ring-2 focus:ring-violet-500/20"
         />
       </label>
